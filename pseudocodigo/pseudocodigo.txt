@@ -1,0 +1,38 @@
+
+Deseo crear un programa que me permita saber 
+la probabilidad de tener covid. 
+
+1.- Si tengo dolor de cabeza 
+2.- Si tengo diarrea 
+3.- Si tengo temperatura de 38  o mas
+4.- Sentido de gusto 
+5.- Oxigenacion 
+ 
+si tengo los 5 sintomas tendré el 98% de tener covid - 
+Si tengo sintoma 1, 2, 5 tendré 75% 
+si presnto un  sintoma, tengo 20% 
+si tengo 4 y 5, tengo 80% 
+---
+
+Pseudocodigo: 
+
+    Proceso: Test de covid
+        Entrada: cabeza, diarrea, temperatura, sentidoGusto, oxigenacion
+        Salida: diagnostico
+
+        Proceso 1 : Si cabeza && diarrea && temperatura && sentidoGusto && oxigenacion == true
+                    entonces: mostrar "Tengo 98% de tener covid"
+                
+        Proceso 2 : Si cabeza && diarrea && oxigenacion == true 
+                    entonces: mostrar "Tengo 75% de tener covid"
+        Proceso 3: Si cabeza || diarrea || oxigenacion || sentidoGusto == true 
+                    entonces: mostrar "Tengo 20% de tener covid"
+        Proceso 4: Si sentidoGusto && oxigenacion == true 
+                    entonces: mostrar "Tengo 80% de tener covid"
+        Proceso 5: si no, entonces: mostrar "No tienes covid"
+        
+        Fin de Proceso
+
+    Fin de programa.
+
+
