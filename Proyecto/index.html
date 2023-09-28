@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <script defer src="JS/index.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <section>
+        <h1>Bienvenido Escuela Joe</h1>
+    </section>
+
+
+    <section class="search">
+        <input type="text" id="searchStudent" placeholder="buscar alumno">
+    </section>
+
+    <section class="lista-alumnos">
+        <table>
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Apellido</th>
+                    <th>Edad</th>
+                    <th>Curso</th>
+                    <th>Calificaciones</th>
+                </tr>
+            </thead>
+            <tbody id="students">
+            </tbody>
+        </table>
+    </section>
+
+   <section class="new-student">
+    <input type="text" placeholder="nombre" id="nombre">
+    <input type="calificacion" placeholder="calificacion" id="calificacion">
+    <button onclick="agregarAlumno()">Agregar</button>
+   </section>
+    
+   <div>
+    <h5>Elimanr alumno </h5>
+    <button onclick="eliminarAlumno()">Elimnar</button>
+   </div>
+</body>
+</html>

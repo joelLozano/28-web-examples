@@ -1,0 +1,18 @@
+Crea el diagrama de flujo, Pseudocodigo y codigo de JS para el siguiente juego 
+
+Numero secreto
+Reglas 
+ 
+1. Generar un número secreto aleatorio entre 1 y 100 y guardarlo en una variable llamada numeroSecreto.
+2. Inicializar un contador de intentos en 0.
+3. Mientras el jugador quiera seguir jugando:
+     a. Incrementar el contador de intentos en 1.
+     b. Pedir al jugador que adivine el número secreto.
+     c. Leer el número ingresado por el jugador y guardarlo en una variable llamada numeroIngresado.
+     d. Si numeroIngresado es igual a numeroSecreto:
+          i. Mostrar "¡Felicitaciones! Adivinaste el número en [contador] intentos."
+          ii. Preguntar al jugador si desea jugar de nuevo. Si la respuesta es "no", salir del juego.
+          iii. Si la respuesta es "sí", volver al paso 1.
+     e. Si numeroIngresado es mayor que numeroSecreto, mostrar "El número secreto es menor".
+     f. Si numeroIngresado es menor que numeroSecreto, mostrar "El número secreto es mayor".
+4. Fin del juego.
