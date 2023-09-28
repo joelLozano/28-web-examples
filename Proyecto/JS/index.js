@@ -22,15 +22,6 @@ var alumnos = [alumno1, alumno2]
 
 let grupo1 = new Grupo("Grupo 1", alumnos)
 
-//grupo1.alumnos.push(new Alumno("Alfredo", 9))
-buscarAlumno()
-function buscarAlumno() {
-    let alumno = document.getElementById("searchStudent")
-    alumnos.addEventLister("input", function () {
-        let alumno = document.getElementById("searchStudent").value
-        console.log(alumno);
-    })
-}
 
 function agregarAlumno() {
     let nombre = document.getElementById("nombre").value
@@ -74,3 +65,10 @@ function ordernarAlfabeticamente() {
 function buscarAlumno() {
 
 }
+
+
+// leer datos del input con el evento input
+ let searchInput = document.getElementById("serchStudent");
+    searchInput.addEventListener("input", function (event) {
+        console.log(event.target.value);
+    })
