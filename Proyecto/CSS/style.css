@@ -3,3 +3,6 @@ body {
 }
 
 
+.alertContainer {
+    display: none; /* ocultar un elemento*/ 
+}

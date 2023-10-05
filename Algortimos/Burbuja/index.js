@@ -1,5 +1,5 @@
  // ¿Que es el metodo de la burbuja ?
- 
+
     // El método de la burbuja es un algoritmo de ordenamiento
     // muy sencillo. Funciona revisando cada elemento de la lista
     // que va a ser ordenada con el siguiente, intercambiándolos de
@@ -30,9 +30,6 @@ function bubbleSort(arr) {
   var array = [64, 34, 25, 12, 22, 11, 90];
   bubbleSort(array);
   console.log("Array ordenado:", array);
-
- 
-
 
   
   // Explicacion de como funciona el metodp de la burbuja
