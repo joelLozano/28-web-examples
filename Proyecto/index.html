@@ -20,57 +20,10 @@
     </div>
 
 
-    <div class="container mt-5 mb-5">
-        <div class="row">
-            <div class="col text-center">
-                <input type="text" id="serchStudent" placeholder="buscar alumno">
-            </div>
-        </div>
+    <div id="containerTable">
+        
     </div>
-
-    <div class="container alertContainer" id="alertContainer">
-        <div class="row">
-            <div class="col">
-                <div class="alert alert-success" role="alert">
-                    Se elimino al alumno
-                  </div>
-            </div>
-        </div>
-    </div>
-
-
-    <div class="container mt-5 mb-5">
-        <div class="row">
-            <div class="col">
-                <table class="table table-striped-columns">
-                    <thead>
-                        <tr class="table-primary">
-                            <th>Nombre <button onclick="ordernarAlfabeticamente()">a-z</button></th>
-                            <th>Apellido</th>
-                            <th>Edad</th>
-                            <th>Curso</th>
-                            <th>Calificaciones</th>
-                            <th>Acciones</th>
-                        </tr>
-                    </thead>
-                    <tbody id="students">
-                    </tbody>
-                </table>
-            </div>
-
-            <div class="col">
-                <section class="new-student">
-                    <input type="text" placeholder="nombre" id="nombre">
-                    <input type="calificacion" placeholder="calificacion" id="calificacion">
-                    <button onclick="agregarAlumno()">Agregar</button>
-                   </section>
-            </div>
-
-            <div class="col">
-                <button class="btn btn-danger" onclick="eliminarUltimoRegistro()">Elimnar ultimo registro</button>
-            </div>
-        </div>
-    </div>
+    
     
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>

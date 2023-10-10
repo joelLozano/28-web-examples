@@ -1,0 +1,54 @@
+{
+  "escuela" : [
+    {
+      "grupo": "Grupo 1A",
+      "alumnos": [
+        {
+          "nombre": "Juan Pérez",
+          "calificacion": 9
+        },
+        {
+          "nombre": "María García",
+          "calificacion": 9
+        },
+        {
+          "nombre": "Luis Rodríguez",
+          "calificacion": 7
+        },
+        {
+          "nombre": "Ana López",
+          "calificacion": 8
+        },
+        {
+          "nombre": "Carlos Sánchez",
+          "calificacion": 7
+        }
+      ]
+    },
+    {
+      "grupo": "Grupo 2B",
+      "alumnos": [
+        {
+          "nombre": "Manolo Pérez",
+          "calificacion": 10
+        },
+        {
+          "nombre": "Gabriela Ramirez",
+          "calificacion": 7
+        },
+        {
+          "nombre": "Alejandro Magno",
+          "calificacion": 9
+        },
+        {
+          "nombre": "Naruto Usumaky",
+          "calificacion": 9
+        },
+        {
+          "nombre": "Sasuke Uchiha",
+          "calificacion": 5
+        }
+      ]
+    }
+  ]
+}
